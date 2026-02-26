@@ -65,14 +65,15 @@ select {
   }
 
   *,
-*::before,
-*::after {
+  *::before,
+  *::after {
     animation-duration: 0.01ms !important;
     animation-iteration-count: 1 !important;
     transition-duration: 0.01ms !important;
     scroll-behavior: auto !important;
   }
 }
+
 body {
   margin: 0;
   padding: 0;
@@ -94,7 +95,7 @@ body {
   font-size: 8px;
   line-height: 8px;
   text-align: justify;
-  background: url(../assets/jasmine.jpg) no-repeat center/cover;
+  background: url(jasmine.jpg) no-repeat center/cover;
   background-attachment: fixed;
   -webkit-background-clip: text;
   -webkit-text-fill-color: rgba(255, 255, 255, 0);
