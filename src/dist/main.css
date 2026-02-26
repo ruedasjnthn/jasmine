@@ -36,7 +36,6 @@ body {
   min-height: 100vh;
   text-rendering: optimizeSpeed;
   line-height: 1.5;
-  overflow: hidden;
 }
 
 /* A elements that don't have a class get default styles */
@@ -79,6 +78,7 @@ body {
   margin: 0;
   padding: 0;
   background: #000;
+  overflow: hidden;
 }
 
 .btn {
