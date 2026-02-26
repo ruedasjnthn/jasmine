@@ -75,10 +75,11 @@ select {
 }
 
 body {
-  margin:0;
-  padding:0;
-  background:#000;
+  margin: 0;
+  padding: 0;
+  background: #000;
 }
+
 .btn {
   position: absolute;
   background: #fff;
@@ -89,12 +90,13 @@ body {
   width: 100px;
   height: 36px;
 }
-.lyrics{
-  font-size : 8px;
-  line-height : 8px;
-  text-align : justify;
-  background : url(../assets/louriz.jpg) no-repeat center/cover;
-  background-attachment : fixed;
-  -webkit-background-clip : text;
-  -webkit-text-fill-color : rgb(255,255,255,0);
+
+.lyrics {
+  font-size: 8px;
+  line-height: 8px;
+  text-align: justify;
+  background: url(../assets/jasmine.jpg) no-repeat center/cover;
+  background-attachment: fixed;
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: rgb(255, 255, 255, 0);
 }

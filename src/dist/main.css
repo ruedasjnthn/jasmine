@@ -94,7 +94,7 @@ body {
   font-size: 8px;
   line-height: 8px;
   text-align: justify;
-  background: url(louriz.jpg) no-repeat center/cover;
+  background: url(../assets/jasmine.jpg) no-repeat center/cover;
   background-attachment: fixed;
   -webkit-background-clip: text;
   -webkit-text-fill-color: rgba(255, 255, 255, 0);
