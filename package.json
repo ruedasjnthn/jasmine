@@ -5,16 +5,10 @@
   "license": "MIT",
   "homepage": "https://ruedasjnthn.github.io/website/",
   "scripts": {
-    "build:scss": "sass src/scss:dist/css --no-source-map --style=compressed",
-    "build:html": "copyfiles -u 1 \"src/*.html\" dist",
-    "build:js": "copyfiles -u 1 \"src/*.js\" dist",
-    "build:assets": "copyfiles -u 1 \"src/assets/**/*\" dist",
-    "build": "npm run build:scss && npm run build:html && npm run build:js && npm run build:assets",
     "dev": "sass --watch src/scss:src/dist",
     "deploy": "gh-pages -d src/dist"
   },
   "devDependencies": {
-    "copyfiles": "^2.4.1",
     "sass": "^1.45.1"
   },
   "dependencies": {
