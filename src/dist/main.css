@@ -97,6 +97,7 @@ body {
   line-height: 8px;
   text-align: justify;
   background: url(jasmine.jpg) no-repeat center/cover;
+  background-attachment: fixed;
   -webkit-background-clip: text;
   -webkit-text-fill-color: rgba(255, 255, 255, 0);
 }
